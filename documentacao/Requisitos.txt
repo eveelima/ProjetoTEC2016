@@ -1,0 +1,5 @@
+#Este documento deve conter a descrição de todos os requisitos.
+#Os requisitos são descritos de acordo com sua numeração
+#considere R00 como um exemplo.
+
+R000 - CRUD teste - 
