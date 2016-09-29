@@ -1,5 +1,14 @@
 #Este documento deve conter a descrição de todos os requisitos.
 #Os requisitos são descritos de acordo com sua numeração
+
+#proposta:
+
+#O produto a ser desenvolvido trata-se de um ambiente de integração entre clientes e prestadores de serviços (pessoas físicas ou jurídicas). Um cliente pode buscar na plataforma um profissional/empresa que presta um determinado serviço, negociar preço, forma de pagamento, etc. Os serviços incluem instalações elétricas, pintura, limpeza/higienização de veículos, etc.
+
 #considere R00 como um exemplo.
 
-R000 - CRUD teste - 
+R000 - CRUD teste 
+        Este requisito é o baseline para desenvolvimento do projeto. Todos os demais devem seguir sua estrutura. Considere que  neste parágrafo deva conter a descrição de R000. Este requisito tem o propósito de permitir o usuário final efetuar operações de CRUD na tabela teste do banco de dados.
+        Responsável pela sua criação: Alexandre L'Erario
+        
+R001 -     
