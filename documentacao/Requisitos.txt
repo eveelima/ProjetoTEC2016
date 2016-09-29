@@ -7,8 +7,9 @@
 
 #considere R00 como um exemplo.
 
-R000 - CRUD teste 
+R000 - crud_teste (deve ser criado um pacote na doc uml com o mesmo nome) 
         Este requisito é o baseline para desenvolvimento do projeto. Todos os demais devem seguir sua estrutura. Considere que  neste parágrafo deva conter a descrição de R000. Este requisito tem o propósito de permitir o usuário final efetuar operações de CRUD na tabela teste do banco de dados.
-        Responsável pela sua criação: Alexandre L'Erario
+        Responsável pela sua criação: Alexandre L'Erario 
+        Este texto deve ser preenchido na descrição do pacote (UML)
         
 R001 -     
