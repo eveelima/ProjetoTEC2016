@@ -1,0 +1,7 @@
+before_script:
+ - cd src/TeCService
+ - ls
+language: java
+jdk:
+  - oraclejdk8
+script: mvn clean verify -DskipTests=false -DskipITs=false -DskipSTs=false
