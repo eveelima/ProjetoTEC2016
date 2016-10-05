@@ -60,13 +60,7 @@ public class JsfTeste {
         this.nome="";
         this.codigo=0;  
     }
-    
-    
-    public java.util.Collection<br.data.entity.Teste> getSelect(){
-       //System.out.println(this.nome);
-            return new br.data.crud.CrudTeste().SelectByNome(this.nome);
        
-    }
     public int getCodigo() {
         return codigo;
     }

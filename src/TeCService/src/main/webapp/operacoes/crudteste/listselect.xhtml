@@ -10,10 +10,10 @@
         <ui:define name="content">
             <h1>Consultar teste</h1>
             <h:form>
-                <h:inputText value="#{jsfTeste.nome}"  /> 
+                <h:inputText value="#{jsfTesteSelect.nome}"  /> 
                 <h:commandButton value="buscar" />                                   
                 
-                <h:dataTable value="#{jsfTeste.getSelect()}" var="test">
+                <h:dataTable value="#{jsfTesteSelect.select}" var="test">
                     <h:column>
                         <h:outputText value="#{test.codigo}" />
                     </h:column>
