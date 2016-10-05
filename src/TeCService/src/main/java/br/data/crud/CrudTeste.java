@@ -6,6 +6,7 @@
 package br.data.crud;
 
 import br.data.entity.Teste;
+import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
@@ -15,14 +16,21 @@ import javax.persistence.Persistence;
  */
 public class CrudTeste extends AbstractCrud<br.data.entity.Teste> {
 
-  
     private EntityManager em;
-    
-    
+
     private static final String PU = EMNames.EMN1;
-    
+
     public CrudTeste() {
         super(Teste.class);
+    }
+
+    public List<br.data.entity.Teste> SelectByNome(String nome) {
+        try {
+            return getEntityManager().createNamedQuery("Teste.findByNome").setParameter("nome", "%" + nome + "%").getResultList();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return null;
     }
 
     @Override
