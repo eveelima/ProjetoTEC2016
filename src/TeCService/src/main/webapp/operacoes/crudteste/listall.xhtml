@@ -17,7 +17,7 @@
                         <h:outputText value="#{test.nome}" />
                     </h:column>
                     <h:column>
-                        <h:commandButton value="remover" action="#{jsfTeste.remove(test)}"/> 
+                        <h:commandButton value="remover" action="#{jsfTeste.remove(test)}" onclick="return confirm('Confirma exclusao?');"/> 
                     </h:column>
                     <h:column>
                         <h:commandButton value="editar" action="#{jsfTeste.update(test)}"/> 
