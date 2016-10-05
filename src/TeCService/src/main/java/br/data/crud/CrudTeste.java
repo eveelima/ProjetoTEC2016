@@ -26,7 +26,7 @@ public class CrudTeste extends AbstractCrud<br.data.entity.Teste> {
 
     public List<br.data.entity.Teste> SelectByNome(String nome) {
         try {
-            return getEntityManager().createNamedQuery("Teste.findByNome").setParameter("nome", "%" + nome + "%").getResultList();
+            return getEntityManager().createNamedQuery("Teste.findByNome").setParameter("nome", "%" + nome.toUpperCase() + "%").getResultList();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
