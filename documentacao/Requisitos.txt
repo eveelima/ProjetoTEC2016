@@ -18,3 +18,8 @@ R013 - Orçamento (usar um formulário = orcamento)
 	   Funções: Deve existir um campo no form para selecionar o prestador a quem se deseja ter contato, um campo para se escrever todo o conteudo desejado, e por ultimo campos para informações de contato do solicitante.
        Responsável pela sua criação: Leonardo Santos Martins
        Pacote UML - Ainda não foi feito
+
+R? (meu antigo requisito era duplicado e o Sr. não responde meu e-mail) - Relatório/log de compras
+	Este requisito tem como objetivo armazenar logs das compras realizadas, podendo então coletar tais informações e realizar diversos tipos de consultas, incluindo o relatório das últimas compras.
+       Responsável pela sua criação: Lucas Fredegoto Reinaldi
+       Pacote UML - Ainda não foi feito
