@@ -19,7 +19,8 @@ R013 - Orçamento (usar um formulário = orcamento)
        Responsável pela sua criação: Leonardo Santos Martins
        Pacote UML - Ainda não foi feito
 
-R? (meu antigo requisito era duplicado e o Sr. não responde meu e-mail) - Relatório/log de compras
-	Este requisito tem como objetivo armazenar logs das compras realizadas, podendo então coletar tais informações e realizar diversos tipos de consultas, incluindo o relatório das últimas compras.
+R017  - Relatório de compras
+	Este requisito tem como objetivo de realizar relatório das últimas compras (ultimas, por intervalo de data).
        Responsável pela sua criação: Lucas Fredegoto Reinaldi
        Pacote UML - Ainda não foi feito
+       
