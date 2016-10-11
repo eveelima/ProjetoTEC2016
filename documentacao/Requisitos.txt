@@ -13,6 +13,12 @@ R000 - crud_teste (deve ser criado um pacote na doc uml com o mesmo nome)
         
 R001 -     
 
+
+R011  - Integração Google Agenda
+	Este requisito tem como objetivo exportar os dados referente a agendamento de serviços, para o sistema de calendários ddo Google (Calendar).
+       Responsável pela sua criação: Diego Pereira do Nascimento
+       Pacote UML - Ainda não foi feito
+
 R013 - Orçamento (usar um formulário = orcamento)
        Este requisito tem por objetivo permitir que os usuários do aplicaivo, possam realizar um orçamento de forma prévia, com informações contantes no perfil dos prestadores, ou até mesmo, solicitar um orçamento especificando materiais, quantidades e coisas assim, tudo o que envolvem este "contrato" de serviço.
 	   Funções: Deve existir um campo no form para selecionar o prestador a quem se deseja ter contato, um campo para se escrever todo o conteudo desejado, e por ultimo campos para informações de contato do solicitante.
@@ -23,4 +29,6 @@ R017  - Relatório de compras
 	Este requisito tem como objetivo de realizar relatório das últimas compras (ultimas, por intervalo de data).
        Responsável pela sua criação: Lucas Fredegoto Reinaldi
        Pacote UML - Ainda não foi feito
+       
+       
        
