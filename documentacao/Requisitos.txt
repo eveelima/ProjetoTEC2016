@@ -11,7 +11,12 @@ R000 - crud_teste (deve ser criado um pacote na doc uml com o mesmo nome)
         Responsável pela sua criação: Alexandre L'Erario 
         Este texto deve ser preenchido na descrição do pacote (UML)
         
-R001 -     
+R001 -  
+
+R004 - Verificar e validar a forma de pagamento
+	O sistema deve ser capaz de verificar e validar o pagamento do usuário referente ao serviço contratado.
+	Responsável pela criação: Evelyn Lima
+	Pacote UML - Ainda não feito
 
 
 R011  - Integração Google Agenda
